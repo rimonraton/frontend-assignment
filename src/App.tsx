@@ -55,15 +55,15 @@ function App() {
                     />
                     <div className="w-[23px] h-[23px] rounded-md border border-gray-200 peer-checked:bg-blue-600 peer-checked:border-blue-600 flex items-center justify-center transition-colors">
                       {allPages && (
-                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" className="scale-100">
-                          <path d="M1 5L4.5 8.5L11 1.5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.5 7.1L6.53451 12.4672C6.55497 12.4854 6.58626 12.4837 6.6047 12.4635L17.5 0.5" stroke="white" stroke-linecap="round"/>
                         </svg>
                       )}
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-50 pointer-events-none">
                       {!allPages && (
-                        <svg width="12" height="12" viewBox="0 0 12 10" fill="none" className="scale-100">
-                          <path d="M1 5L4.5 8.5L11 1.5" stroke="#D1D5DB" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.5 7.1L6.53451 12.4672C6.55497 12.4854 6.58626 12.4837 6.6047 12.4635L17.5 0.5" stroke="#878787" stroke-linecap="round"/>
                         </svg>
                       )}
                     </div>
@@ -90,15 +90,15 @@ function App() {
                     />
                     <div className="w-[23px] h-[23px] rounded-md border border-gray-200 peer-checked:bg-blue-600 peer-checked:border-blue-600 flex items-center justify-center transition-colors">
                       {page.checked && (
-                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" className="scale-100">
-                          <path d="M1 5L4.5 8.5L11 1.5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.5 7.1L6.53451 12.4672C6.55497 12.4854 6.58626 12.4837 6.6047 12.4635L17.5 0.5" stroke="white" stroke-linecap="round"/>
                         </svg>
                       )}
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-50 pointer-events-none">
                       {!page.checked && (
-                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" className="scale-100">
-                          <path d="M1 5L4.5 8.5L11 1.5" stroke="#D1D5DB" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.5 7.1L6.53451 12.4672C6.55497 12.4854 6.58626 12.4837 6.6047 12.4635L17.5 0.5" stroke="#878787" stroke-linecap="round"/>
                         </svg>
                       )}
                     </div>
